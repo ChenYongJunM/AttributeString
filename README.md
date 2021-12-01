@@ -2,6 +2,7 @@
 ExpressibleByStringInterpolation AttributeString
 基于swift5.0字符串字面量协议包装的attributestring
 
+ `
  demo1
  let name = "name"
  let attribute: AttributedString = """
@@ -21,3 +22,4 @@ ExpressibleByStringInterpolation AttributeString
  
  demo2
  let attribute: AttributedString = "Hello \(name, .color(.red), .font(UIFont.systemFont(ofSize: 22)), .paragraph(.center, 10)), \(image: UIImage.init(named: "wallet_card_cash_icon"), offset: 0, size: .init(width: 40, height: 40))"
+ `
