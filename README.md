@@ -1,0 +1,2 @@
+# AttributeString
+ExpressibleByStringInterpolation AttributeString
